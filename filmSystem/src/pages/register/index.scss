@@ -1,0 +1,18 @@
+.register {
+  text-align: center;
+  display: flex;
+  form {
+    width: 40%;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    button {
+      margin: 10px 20px;
+    }
+  }
+}

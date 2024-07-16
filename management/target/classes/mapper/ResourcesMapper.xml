@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ade.storesManage.dao.ResourcesMapper">
+  <resultMap id="BaseResultMap" type="com.ade.storesManage.model.Resources">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="VARCHAR" property="id" />
+    <result column="title" jdbcType="VARCHAR" property="title" />
+    <result column="cover_url" jdbcType="VARCHAR" property="coverUrl" />
+    <result column="resources_url" jdbcType="VARCHAR" property="resourcesUrl" />
+    <result column="state" jdbcType="INTEGER" property="state" />
+    <result column="created_time" jdbcType="TIMESTAMP" property="createdTime" />
+    <result column="updated_time" jdbcType="TIMESTAMP" property="updatedTime" />
+    <result column="introduce" jdbcType="VARCHAR" property="introduce" />
+    <result column="type" jdbcType="VARCHAR" property="type" />
+    <result column="created_by" jdbcType="VARCHAR" property="createdBy" />
+    <result column="updated_by" jdbcType="VARCHAR" property="updatedBy" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ade.storesManage.dao.ParkTypesMapper">
+  <resultMap id="BaseResultMap" type="com.ade.storesManage.model.ParkTypes">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="type_id" jdbcType="VARCHAR" property="id" />
+    <result column="type_name" jdbcType="VARCHAR" property="typeName" />
+    <result column="type_cover" jdbcType="VARCHAR" property="typeCover" />
+    <result column="created_by" jdbcType="VARCHAR" property="createdBy" />
+    <result column="updated_by" jdbcType="VARCHAR" property="updatedBy" />
+    <result column="created_at" jdbcType="TIMESTAMP" property="createdAt" />
+    <result column="updated_at" jdbcType="TIMESTAMP" property="updatedAt" />
+    <result column="type_description" jdbcType="LONGVARCHAR" property="typeDescription" />
+    <result column="type_resources" jdbcType="LONGVARCHAR" property="typeResources" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,12 @@
+.demo-logo-vertical {
+    height: 32px;
+    margin: 16px;
+    background: rgba(255,255,255,.2);
+    border-radius: 6px;
+    color: cornsilk;
+    text-align: center;
+    line-height: 32px;
+    font-weight: bold;
+    letter-spacing: .2em;
+    overflow: hidden;
+}
